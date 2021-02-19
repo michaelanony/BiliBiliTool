@@ -17,7 +17,7 @@ namespace ConfigTest
     {
         public TestDonateCoinStatusConfig()
         {
-            Program.PreWorks(null);
+            Program.CreateHost(null);
         }
 
         [Fact]
